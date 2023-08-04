@@ -1,0 +1,98 @@
+* {
+    margin: 1px;
+    padding: 0px;
+    background-color: black;
+   
+}
+.canvas {
+   background-color:#0b1e2a;
+   border: 3px solid rgb(78, 224, 85);
+}  
+.container {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "sidebar main-content main-content "
+    "sidebar main-content main-content ";
+    gap: 2px;
+   
+}
+h2 {
+   text-transform: uppercase;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-shadow: 4px 4px 4px rgb(128, 135, 144);
+   margin-bottom: 10px;
+   animation: heading 0.9s infinite  alternate-reverse;
+ }
+ @keyframes heading {
+   0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.05);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    75% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+
+
+ }
+.header {
+    grid-area: header;
+    text-align: center;
+    height: 35px;
+    text-decoration: solid;
+    text-shadow:2px;
+    text-size-adjust: 30px;
+    color: beige;   
+    }
+ .sidebar {
+    grid-area: sidebar;
+    min-width: 290px;
+    max-width: 290px;
+    color: beige;
+    text-align: center;
+    margin: 2px;
+    background-color: black;
+ }
+ .main {
+    grid-area: main-content;   
+    margin: 2px;
+  
+ }
+.mode_button {
+   text-transform: uppercase;
+   color: white;
+   background-color: rgb(31, 43, 82);
+   border: 3px solid rgb(78, 224, 85);
+   border-radius: 5px;
+   padding: 15px 25px;
+   margin-bottom: 10px;
+   margin-inline: 15px;
+   text-decoration: solid;
+   text-align: center;
+   font-size: 12px;
+}
+.BUTTON {
+   margin-top: 4vh;
+   margin-left: 10px; 
+   margin-right: 10px;
+   padding: 15px;
+
+}
+.buttons {
+   margin-top: 15vh;
+   margin-left: 10px; 
+   margin-right: 10px;
+ }
+
+.mode_button:hover {
+   background-color: rgb(26, 152, 202);
+   cursor: pointer;
+}
