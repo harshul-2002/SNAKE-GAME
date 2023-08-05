@@ -71,7 +71,7 @@ h2 {
    color: white;
    background-color: rgb(31, 43, 82);
    border: 3px solid rgb(78, 224, 85);
-   border-radius: 5px;
+   border-radius: 10px;
    padding: 15px 25px;
    margin-bottom: 10px;
    margin-inline: 15px;
@@ -93,6 +93,6 @@ h2 {
  }
 
 .mode_button:hover {
-   background-color: rgb(26, 152, 202);
+   background-color: rgb(17, 91, 120);
    cursor: pointer;
 }
